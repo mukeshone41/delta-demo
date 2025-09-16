@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bhartiya Khajana | Vocal for Local Indian Handicrafts & Toys</title>
+    <meta name="description" content="Bhartiya Khajana celebrates Indian craftsmanship. Shop authentic, locally-made toys, handicrafts, and gifts. Vocal for Local.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Marcellus&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="icon" href="./assets/icons/favicon.ico">
+</head>
+<body>
+    <header class="topbar">
+        <div class="container">
+            <p>Free shipping on orders over ₹799 • Handcrafted • Made in India</p>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="container nav-inner">
+            <a class="logo" href="#" aria-label="Bhartiya Khajana home">
+                <img src="./assets/icons/logo.svg" alt="Bhartiya Khajana" />
+                <span>Bhartiya Khajana</span>
+            </a>
+            <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">☰</button>
+            <ul id="nav-menu" class="nav-links">
+                <li><a href="#new">New Arrivals</a></li>
+                <li><a href="#toys">Toys</a></li>
+                <li><a href="#crafts">Handicrafts</a></li>
+                <li><a href="#gifts">Gifts</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+            <div class="nav-actions">
+                <input type="search" placeholder="Search products" aria-label="Search products" />
+                <button class="icon-btn" aria-label="Account">👤</button>
+                <button class="icon-btn" aria-label="Cart">🛒<span class="badge">0</span></button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-inner">
+                <div class="hero-copy">
+                    <h1>Vocal for Local. Crafted with Heart.</h1>
+                    <p>Discover hand-made Indian toys and treasures that carry stories from every corner of Bharat.</p>
+                    <div class="hero-cta">
+                        <a class="btn primary" href="#toys">Shop Toys</a>
+                        <a class="btn ghost" href="#crafts">Explore Handicrafts</a>
+                    </div>
+                    <div class="trust">
+                        <span>✅ 100% Made in India</span>
+                        <span>✅ Artisanal & Sustainable</span>
+                        <span>✅ Secure Checkout</span>
+                    </div>
+                </div>
+                <div class="hero-media">
+                    <div class="carousel" data-carousel>
+                        <div class="slides">
+                            <img src="./assets/images/hero-1.svg" alt="Handcrafted wooden toys" />
+                            <img src="./assets/images/hero-2.svg" alt="Colorful Indian handicrafts" />
+                            <img src="./assets/images/hero-3.svg" alt="Gifts inspired by Indian culture" />
+                        </div>
+                        <button class="carousel-btn prev" aria-label="Previous">‹</button>
+                        <button class="carousel-btn next" aria-label="Next">›</button>
+                        <div class="dots" aria-label="Slide indicators"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="categories" class="categories">
+            <div class="container">
+                <h2>Shop by Category</h2>
+                <div class="grid">
+                    <a class="card category" href="#toys">
+                        <img src="./assets/images/cat-toys.svg" alt="Toys" />
+                        <span>Toys</span>
+                    </a>
+                    <a class="card category" href="#crafts">
+                        <img src="./assets/images/cat-handicrafts.svg" alt="Handicrafts" />
+                        <span>Handicrafts</span>
+                    </a>
+                    <a class="card category" href="#gifts">
+                        <img src="./assets/images/cat-gifts.svg" alt="Gifts" />
+                        <span>Gifts</span>
+                    </a>
+                    <a class="card category" href="#learning">
+                        <img src="./assets/images/cat-learning.svg" alt="Learning" />
+                        <span>Learning</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="bestsellers" class="bestsellers">
+            <div class="container">
+                <h2>Best Sellers</h2>
+                <div class="product-row">
+                    <article class="product">
+                        <img src="./assets/images/p1.svg" alt="Wooden Pull Toy">
+                        <h3>Wooden Pull Toy</h3>
+                        <p class="price">₹649</p>
+                        <button class="btn small">Add to Cart</button>
+                    </article>
+                    <article class="product">
+                        <img src="./assets/images/p2.svg" alt="Traditional Spinning Top">
+                        <h3>Traditional Spinning Top</h3>
+                        <p class="price">₹199</p>
+                        <button class="btn small">Add to Cart</button>
+                    </article>
+                    <article class="product">
+                        <img src="./assets/images/p3.svg" alt="Hand-painted Coasters">
+                        <h3>Hand-painted Coasters</h3>
+                        <p class="price">₹499</p>
+                        <button class="btn small">Add to Cart</button>
+                    </article>
+                    <article class="product">
+                        <img src="./assets/images/p4.svg" alt="Terracotta Planter">
+                        <h3>Terracotta Planter</h3>
+                        <p class="price">₹799</p>
+                        <button class="btn small">Add to Cart</button>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="story" id="about">
+            <div class="container story-inner">
+                <div>
+                    <h2>Our Story</h2>
+                    <p>Bhartiya Khajana is on a mission to empower local artisans and preserve Indian heritage through thoughtfully made products. Each purchase supports a craftsperson and keeps traditional skills alive.</p>
+                    <a class="btn" href="#catalog">Browse All Products</a>
+                </div>
+                <img src="./assets/images/story.svg" alt="Artisan at work">
+            </div>
+        </section>
+
+        <section class="badges">
+            <div class="container badges-row">
+                <div class="badge"><span>🇮🇳</span><p>Made in India</p></div>
+                <div class="badge"><span>🌿</span><p>Eco-conscious</p></div>
+                <div class="badge"><span>🛡️</span><p>Secure Payments</p></div>
+                <div class="badge"><span>🚚</span><p>Fast Shipping</p></div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="container">
+                <h2>Join our Khajana Circle</h2>
+                <p>Get early access to new collections, offers, and artisan stories.</p>
+                <form class="subscribe" action="#" method="post">
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <button class="btn primary" type="submit">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <a class="logo" href="#"><img src="/workspace/bhartiya-khajana/assets/icons/logo.svg" alt="Bhartiya Khajana" /><span>Bhartiya Khajana</span></a>
+                <p>Celebrating Indian craftsmanship. Vocal for Local.</p>
+            </div>
+            <div>
+                <h4>Shop</h4>
+                <ul>
+                    <li><a href="#toys">Toys</a></li>
+                    <li><a href="#crafts">Handicrafts</a></li>
+                    <li><a href="#gifts">Gifts</a></li>
+                    <li><a href="#new">New Arrivals</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Help</h4>
+                <ul>
+                    <li><a href="#shipping">Shipping</a></li>
+                    <li><a href="#returns">Returns</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Follow</h4>
+                <div class="socials">
+                    <a href="#" aria-label="Instagram">📷</a>
+                    <a href="#" aria-label="Facebook">f</a>
+                    <a href="#" aria-label="YouTube">▶</a>
+                </div>
+            </div>
+        </div>
+        <div class="subfooter">
+            <div class="container">
+                <p>© <span id="year"></span> Bhartiya Khajana. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./scripts/main.js"></script>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
